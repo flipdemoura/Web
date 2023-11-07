@@ -1,0 +1,36 @@
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 10px 10px 0px;
+  width: 100vw;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 200px;
+}
+
+nav a:hover {
+  font-size: larger;
+}
+
+.sticky {
+  position: sticky;
+  height: 50px;
+  top: 0;
+}
